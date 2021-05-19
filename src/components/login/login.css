@@ -19,10 +19,6 @@
     width: 20% !important;
 }
 
-.errorMessage {
-    transform: translate(3%, 0%);
-}
-
 .submitButtonContainer {
     width: 25%;
     transform: translate(149%, 0%);
