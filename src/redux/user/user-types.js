@@ -1,0 +1,4 @@
+export const USER_ACTION_TYPES = {
+    SET_USER: "SET_USER",
+    RESET_USER: "RESET_USER",
+}

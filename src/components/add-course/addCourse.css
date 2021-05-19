@@ -1,0 +1,51 @@
+/* .project-status-select {
+    margin-left: -5px!important;
+}
+
+.modal-icon {
+    height: 30%;
+    background-size: contain;;
+    background-position: center;
+
+    display: block;
+    margin-bottom: 50px;
+}
+
+.action-panel-text {
+    display: flex;
+    color: #696969;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+}
+
+
+.btn-large {
+    font-size: 13px;
+    height: 40px!important;
+    width: 230px;
+    font-size: 13px;
+}
+
+.close{
+    position: absolute;
+    right:20px
+}
+
+.action-panel{
+    
+}
+
+.action-popup{
+    height: 300px !important;
+}
+
+.active{
+    background-image: none;
+} */
+
+.button-row {
+    margin-top: 20px;
+}

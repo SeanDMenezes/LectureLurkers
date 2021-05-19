@@ -1,0 +1,22 @@
+.likeButton {
+    float: right;
+    background-color: transparent !important;
+    margin-bottom: 10px;
+}
+
+.likeButton:hover {
+    background-color: transparent !important;
+}
+
+.removeBtn {
+    background-color: red;
+}
+
+.postContainer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.postContent {
+    max-width: 90%;
+}

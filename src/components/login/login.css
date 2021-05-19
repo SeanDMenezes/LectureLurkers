@@ -1,0 +1,38 @@
+.formContainer {
+    display: block;
+    text-align: center;
+}
+
+.formTitle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.formHeading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.formCustomControl {
+    width: 20% !important;
+}
+
+.errorMessage {
+    transform: translate(3%, 0%);
+}
+
+.submitButtonContainer {
+    width: 25%;
+    transform: translate(149%, 0%);
+}
+
+.submitButton {
+    margin-top: 30px;
+}
+
+.submitButton:disabled {
+    background-color: grey !important;
+    border-color: black;
+}
