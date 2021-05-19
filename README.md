@@ -1,9 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Check out the final product at https://lecture-lurkers.netlify.app/!
+Check out the final product hosted on [Netlify](https://lecture-lurkers.netlify.app/)!
 
 Here are some credentials to explore the website (both have a password of "abcd1234"):
-Teacher view username - teacher1
+
+Teacher view username - teacher1 <br />
 Student view username - student1
 
 ## Available Scripts
