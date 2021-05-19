@@ -1,4 +1,4 @@
-const BASE_URL = process.env.REACT_APP_API_ENDPOINT || "https://lecture-lurkers.herokuapp.com";
+const BASE_URL = process.env.REACT_APP_API_ENDPOINT;
 
 export const post = async (values, endpoint) => {
     let response = await fetch(`${BASE_URL}/${endpoint}`, {

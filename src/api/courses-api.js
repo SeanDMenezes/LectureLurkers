@@ -1,6 +1,6 @@
 import { post } from "./api-helper";
 
-const BASE_URL = process.env.REACT_APP_API_ENDPOINT || "https://lecture-lurkers.herokuapp.com";
+const BASE_URL = process.env.REACT_APP_API_ENDPOINT;
 
 export const getCourse = async (courseID) => {
     let values = { courseID };

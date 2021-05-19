@@ -1,7 +1,7 @@
 const { post } = require("./api-helper");
 const { getUser } = require("./user-api");
 
-const BASE_URL = process.env.REACT_APP_API_ENDPOINT || "https://lecture-lurkers.herokuapp.com";
+const BASE_URL = process.env.REACT_APP_API_ENDPOINT;
 
 export const addNewLecture = async (courseID, lectureName) => {
     let values = { courseID, lectureName };

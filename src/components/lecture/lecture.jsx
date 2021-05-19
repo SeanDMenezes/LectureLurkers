@@ -18,7 +18,7 @@ import { selectLecture } from "../../redux/lecture/lecture-selector";
 import "./lecture.css";
 import { Link, useHistory } from "react-router-dom";
 
-const clientPort = process.env.REACT_APP_API_ENDPOINT || "https://lecture-lurkers.herokuapp.com/";
+const clientPort = process.env.REACT_APP_API_ENDPOINT;
 const socket = socketIOClient(clientPort);
 
 const Post = ({ post, user, isView }) => {
